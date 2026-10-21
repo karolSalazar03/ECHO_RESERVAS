@@ -1,21 +1,25 @@
 package edu.epn.iccd632.xp;
 
 import org.junit.jupiter.api.Test;
+import java.util.HashMap;
+import java.util.Map;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CancellationPolicyTest {
 
-@Test
+    @Test
     public void testCancelacionExitosaDevuelveTrue() {
-        Reservations res = new Reservations();
+        CancellationPolicy policy = new CancellationPolicy();
+        Map<String, String> reservas = new HashMap<>();
         
-        // 1. Primero reservamos un bloque para que exista
-        res.book("estudiante123", "A");
+        // 1. Simulamos manualmente que ya existe una reserva en la memoria
+        reservas.put("A", "estudiante123");
         
-        // 2. Intentamos cancelar con el mismo titular y bloque
-        boolean resultado = res.cancel("estudiante123", "A");
+        // 2. Ejecutamos tu método cancel pasándole el mapa simulado
+        boolean resultado = policy.cancel(reservas, "estudiante123", "A");
         
-        // 3. Verificamos que la cancelación sea exitosa (devuelva true)
+        // 3. Verificamos que devuelva true y que el mapa quede vacío
         assertTrue(resultado, "Cancelar una reserva válida debe devolver true");
+        assertFalse(reservas.containsKey("A"), "El bloque A debe quedar liberado en el mapa");
     }
 }
