@@ -53,7 +53,8 @@ Historias aceptadas, pendientes conocidos y siguiente mejora concreta (máx. 3 l
 # Respuesta individual 
 Equipo: ECHO
 
-Nombre: Rommel Rivera | Usuario GitHub: RommelRam
+Nombre: Rommel Rivera | Usuario GitHub: RommelRam 
+Rol: Redactor Técnico - Testers
 1. Mi contribución y evidencia (archivo, PR, prueba, revisión): 
 Yo me encargué de todo lo que viene siendo la documentación y registro de lo que se ha estado haciendo en esta actividad, así mismo colaboré con la elaboración de la historia 2 y la validación de las pruebas asociadas en el repositorio.
    
@@ -70,6 +71,7 @@ La coordinación que tuvimos a la hora de organizarnos fue deficiente al princip
 # Respuesta individual
 
 Nombre: Isabel Farinango  | Usuario GitHub: Aizel-Shadow
+Rol: Arquitecta - Programadora
 1. Mi contribución y evidencia (archivo, PR, prueba, revisión): 
 Me encargué del desarrollo de la historia de usuario HU-01 y su lógica principal en BookingPolicy.java, además de implementar las pruebas unitarias iniciales siguiendo TDD y abrir el Pull Request correspondiente hacia main.
    
@@ -86,7 +88,7 @@ Establecer tiempos de revisión cruzada más ágiles para evitar cuellos de bote
 
 
 Nombre: Kevin Alvear | Usuario GitHub: kevin-Alvear
-
+Rol: Programador - Testers
 1. Mi contribución y evidencia (archivo, PR, prueba, revisión): 
 Colaboré directamente en la implementación de la HU-02 en CancellationPolicy.java, diseñando las pruebas de negocio para validar la cancelación correcta de los bloques reservados y revisando el código de los compañeros.
    
@@ -101,8 +103,8 @@ Mejorar la sincronización frecuente con git pull antes de empezar a programar p
 
 # Respuesta individual 
 
-
-Nombre: karolina Salazar | Usuario GitHub: karolSalazar03
+Nombre: Karolina Salazar | Usuario GitHub: karolSalazar03
+Rol: Testers - Programadora
 1. Mi contribución y evidencia (archivo, PR, prueba, revisión): 
 Me enfoqué en la revisión cruzada de los Pull Requests de ambas parejas, verificando el cumplimiento de las reglas del negocio, la calidad de las pruebas JUnit y validando el estado del pipeline en GitHub Actions antes del merge.
    
